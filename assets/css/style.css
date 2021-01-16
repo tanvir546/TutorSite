@@ -1,0 +1,510 @@
+/* FAMILY IMPORT */
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|DM+Serif+Display&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+    
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #a77b7b;
+    display: block;
+    transition-delay: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #665656;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .btn-slider
+  {
+      background-color: #FDEADB;
+      margin: 0 35px 30px 35px;
+    border-radius: 30px 30px 30px 30px;
+    
+  }
+  @media screen and (max-height: 600px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    /* @media (min-width: 601px) and (max-width: 1200px) {
+      collapse{
+      display: none;
+    }
+      
+    } */
+  }
+/* NAVBAR START HERE */
+/* NAV BAR PADDING BETWEEN EACH NAV-ITEAM */
+nav .navbar-collapse ul li {
+    padding: 0 30px;
+}
+
+/* NAV BAR HEADER SECTION*/
+nav {
+    /* padding: 60px 0 0 20px; */
+    /* height: auto; */
+    background-color: #FDEADB;
+    /* scroll-behavior: auto; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url('unnamed.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+
+}
+
+
+/* NAVBAR NAVLINK COLOR */
+.nav-link {
+    color: black;
+}
+
+/* NAV-LINK COME FROM RIGHT */
+header nav #navbarsExample09 ul {
+    text-align: right;
+}
+
+/* TOGGLE BORDER NONE */
+.navbar-toggler {
+    border: none;
+}
+
+/* TOGGLE ICON SIZE */
+span.navbar-toggler-icon {
+    height: 2em;
+    
+}
+
+/* TOOGLE OUTSIDE BORDER */
+.navbar-toggler:focus {
+    outline: none !important;
+}
+
+/* NAVBAR END HERE */
+/* SECTION HOME HERO START HERE */
+
+/* HOME SECTION*/
+#section-home-hero {
+    height: 100vh;
+    background: #FDEADB url('../img/home/tutor-home-slider-pic1.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 50mm;
+
+}
+
+/* BUTTON BUY NOW SHAPE */
+.btn-home {
+    border-radius: 30px 30px 30px 30px;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: transparent;
+}
+
+/* HOME SECTION TEXT 1*/
+#section-home-text1 {
+    padding: 120px 0 0 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 0.7;
+}
+
+/* SECTION HOME TEXT 2 */
+#section-home-text2 {
+    padding: 20px 0 0 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #7d736d;
+    font-size: 17px;
+    font-style: normal;
+}
+
+/* SECTION HOME HERO END HERE */
+
+/* SECTION HOME COURSES START HERE */
+/* HOME SUBJECT HEIGHT */
+#section-home-subject {
+    height: 100vh;
+}
+
+/* SECTION HOME OUR COURSES BUTTON */
+
+#section-home-btn button {
+    margin: 20px 0 0 0;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(249, 124, 95);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    /* color: #682a04; */
+}
+
+/* SECTION HOME OUR COURSES BUTTON HOVER */
+#section-home-btn button:hover {
+    background-color: #ff6441;
+
+}
+
+/* SECTION HOME SUBJECT TEXT1 */
+#section-home-subject-text1 {
+    padding: 30px 0 0 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+
+/* SECTION HOME SUBJECT BUTTON OUR SUBJECTS */
+
+#section-home-subject-btn a {
+    margin: 50px 0 0 0;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(249, 124, 95);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+}
+
+/* SECTION HOME SUBJECT BUTTON HOVER OUR SUBJECTS */
+#section-home-subject-btn a:hover {
+    background-color: #ff6441;
+
+}
+
+/* CARD COLOR */
+.card {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FCEEE3;
+
+}
+
+/* CARD MARGING  */
+.subject-popular-card {
+    margin: 20px 0 0 0;
+
+}
+
+/* CARD HOVER USED DIV */
+.subject-popular-card :hover {
+    background-color: rgb(250, 210, 179);
+    transition-delay: 1s smooth;
+
+}
+
+/* IMAGE RESIZE */
+.popular-btn-image {
+    margin: 0 0 0 20px;
+    height: 40px;
+    width: 40px;
+
+}
+
+/* TEXT COLOR */
+.popular-btn-text {
+    font-family: 'DM Serif', sans-serif;
+    color: black;
+    padding: 0 0 0 5px;
+}
+
+/* SECTION HOME COURSES END HERE */
+
+/* SECTION HOME CHOOSE US START HERE */
+/* HOME CHOOSE US HEIGHT */
+#section-home-chooseus {
+    height: 100vh;
+    background-color: #FFF8F5;
+}
+
+/* HOME CHOOSE US SECTION TEXT 1*/
+#section-home-chooseus-text1 {
+    /* padding: 120px 0 0 0; */
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 50px;
+    font-style: normal;
+}
+
+/* HOME CHOOSE US TEXT 2 */
+#section-home-chooseus-text2 {
+    padding: 20px 0 0 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #7d736d;
+    font-size: 17px;
+    font-style: normal;
+}
+
+/* HOME CHOOSE US Button */
+
+#section-home-chooseus-btn a {
+    margin: 50px 0 50px 0;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(249, 124, 95);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+}
+
+/* HOME CHOOSE US TEXT 4 */
+
+#section-home-chooseus-text3 {
+    padding: 20px 0 0 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 20px;
+    font-style: normal;
+}
+
+/* HOME CHOOSE US TEXT 4 */
+
+#section-home-chooseus-text4 {
+    padding: 20px 0 0 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #7d736d;
+    font-size: 15px;
+    font-style: normal;
+}
+
+/* SECTION HOME CHOOSE US END HERE */
+/* SECTION HOME WORKS START*/
+/*  SECTION WORK HEIGHT*/
+#section-home-works {
+    height: 70vh;
+}
+
+/* SECTION */
+#section-home-work-image {
+    padding: 0 0 20px 0;
+}
+
+/* SECTION WORK TEXT 1 */
+#section-home-works-text1 {
+    margin: 0 0 50px 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 50px;
+    font-style: normal;
+}
+
+/* SECTION WORK TEXT 1 */
+#section-home-work-text2 {
+    background-repeat: no-repeat;
+    font-family: 'DM Serif Display', serif;
+    padding: 4px 0 0 80px;
+
+}
+
+#section-home-courses-text1 {
+    margin: 0 0 50px 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#section-home-features-text1 
+{
+    margin: 0 0 50px 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 50px;
+    font-style: normal;
+}
+ /* ABOUT FOUR STYLE START HERE */
+
+#section-about-four
+{
+    margin-top: 150px;
+    background-image: url('./../img/about-pic3.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 700px;
+    /* width: 100%; */
+}
+.button_eight {
+    background-color: #f97c5f;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 30px;
+  }
+
+  #section-about-four #table-six
+  {
+      padding-top: 150px;
+  }
+  #section-about-four #table-six #table-six-firstcol #six-first-title
+  {
+      color: #fff;
+  }
+  #section-about-four #table-six #table-six-firstcol #six-second-title
+  {
+      color: #fff;
+      padding-top: 20px;
+  }
+  #section-about-four #table-six #table-six-firstcol #six-third-option
+  {
+      color: #fff;
+      padding-top: 20px;
+  }
+  @media only screen and (max-width: 767px)
+  {
+    #section-about-four #table-six #table-six-firstcol #six-first-title h1
+    {
+        font-size: 30px;
+    }
+
+    #section-about-four #table-six #table-six-secondcol
+    {
+      margin-top: 50px;
+      height: 100%;
+      width: 80%;
+    }
+     #section-about-four
+    {
+    height: auto;
+    }
+  }
+/* ABOUT FOUR STYLE END HERE */
+/* FOOTER SECTION START HERE */
+/* FOOTER SECTION START HERE */
+
+#section-about-five
+{
+    /* margin-top: 150px; */
+    height: 350px;
+    /* background-color: #FFF8F5; */
+
+    
+}
+
+#section-about-five #table-seven #table-seven-firtstcol-second_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-secondcol-second_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-secondcol-third_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-third-text
+{
+    color:#929292;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: right;
+}
+#section-about-five #table-seven #table-seven-thirdcol 
+{
+    text-align: right;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i:hover
+{
+    color: #e9745a;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i
+{
+    color: black;
+}
+@media only screen and (max-width: 767px)
+  {
+    #section-about-five #table-seven #table-seven-thirdcol
+        {
+            text-align: left;
+        }
+    #section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-second-text h2
+        {
+            /* text-align: right; */
+            font-size: 20px;
+        }
+  }
+#footer
+{
+
+    height: 100px;
+}
+#footer #footer-table
+{
+    margin-top: 30px;
+}
+#footer #footer-table #footer-table-secondcol
+{
+    text-align: right;
+    /* background-color:#929292 ; */
+    background: transparent;
+}
+#footer #footer-table #footer-table-secondcol i
+{
+    /* text-align: right; */
+    /* background-color:#929292 ; */
+    background: transparent;
+    color:#929292;
+}
+#footer #footer-table #footer-table-firtstcol
+{
+    font-size: 20px;
+    color:#929292;
+}
+
+@media only screen and (max-width: 767px)
+  {
+    #footer
+    {
+        margin-top: 300px;
+    }
+    #footer #footer-table #footer-table-firtstcol
+{
+    font-size: 15px;
+    /* color:#929292; */
+}
+  }
+/* FOOTER SECTION END HERE */

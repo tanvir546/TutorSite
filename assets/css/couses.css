@@ -1,0 +1,201 @@
+ 
+@import url('../css/style.css');
+@import url('../css/max-width1200.css');
+@import url('../css/max-width600.css');
+@import url('../css/E-learning.css');
+
+
+
+#section-courses-home{
+  background-image: url('../img/about-cover.jpg');
+  background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+@media only screen and (max-width: 767px)
+{
+    #section-courses-home
+    {
+        /* padding: 80px 0!important; */
+        height: 150px;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+  /* courses menu start  */
+.btn-courses {
+  border-radius: 0;
+  text-align: left;
+  color: #7d736d;
+  letter-spacing: 2px;
+}
+
+.btn-courses:hover {
+  background: #f97c5f;
+  color: white;
+}
+   /* courses menu stop  */
+
+ /* card button color  */
+.b{
+  border: 1 px soid;
+  border-radius: 50px !important;
+  background-color: antiquewhite;
+  
+}
+ /* card button color end  */
+
+    /* card image middle button start */
+
+ .n{
+    margin-top: 30px;
+    border-radius: 50px;
+    
+     margin-left: -100px;
+     position: absolute;
+ }
+       /* card image middle button end */
+
+     
+       /* Courses serponsive start  */
+
+        @media only screen and (min-width: 0px) and (max-width: 400px)  {
+          .f{
+              font-size: 50px;
+            
+          }
+        }
+
+
+        @media only screen and (min-width: 401px) and (max-width: 800px)  {
+          .f{
+              font-size: 70px;
+              
+          }
+        }
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i:hover
+{
+    color: #e9745a;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i
+{
+    color: black;
+}
+@media only screen and (max-width: 767px)
+  {
+    #section-about-five #table-seven #table-seven-thirdcol
+      {
+        text-align: left;
+      }
+    #section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-second-text h2
+      {
+          /* text-align: right; */
+          font-size: 20px;
+      }
+  }
+
+          /* Courses serponsive start  */
+    
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .n-bg{
+  background: transparent;
+  border: 0 transparent;
+  text-decoration: none;
+ 
+}
+.n-hover:hover{
+     background-color: aqua ;
+}
+
+@media (min-width: 100px) and (max-width: 572px) { 
+  .n{
+ float: left !important;
+}
+.n1{
+ float: right !important;
+}
+.n2{
+  margin-top: 100px;
+  float: left;
+  margin-left: -45px;
+}
+.n3{
+  margin-top: 100px;
+  float: right;
+  margin-right: -40px;
+  
+}
+} 
+
+
+
+@media (min-width: 573px) and (max-width: 2400px) { 
+  .n{
+ float: left !important;
+}
+.n1{
+margin-left: 30% ;
+}
+.n2{
+  margin-left: 10%;
+}
+.n3{
+ 
+  float: right !important;
+}
+.nn-bg{
+   width: 25%;
+   height: 50px;
+   text-align: center;
+}
+.nn-bg1{
+  height: 50px;
+}
+}  */
+
+
+
+
+
+

@@ -1,0 +1,127 @@
+@media screen and (max-width: 600px) {
+
+    /* NAV BAR PADDING BETWEEN EACH NAV-ITEAM */
+    nav .navbar-collapse ul li {
+        text-align: right;
+    }
+
+    /* NAV COLOR */
+    nav {
+        /* height: auto; */
+        background-color: white;
+    }
+
+    /* HOME SUBJECT HEIGHT */
+    #section-home-subject {
+        height: auto;
+    }
+
+    /* HOME HERO SECTION  */
+    #section-home-hero {
+        background-position: center;
+        background-position-y: 90mm;
+        /* background-size: contain; */
+        background-size: 70%;
+        height: 80vh;
+    }
+
+    /* HOME SECTION TEXT 1 */
+    #section-home-text1 {
+        padding: 30px 0 20px 0;
+        font-size: 34px;
+        font-style: normal;
+        /* line-height: 0.7; */
+        text-align: center;
+    }
+
+    /* HOME SECTION TEXT 2 */
+    #section-home-text2 {
+        display: none;
+
+    }
+
+    /* HOME SECTION BUTTON */
+    #section-home-btn button {
+        padding: 5px 10px 5px 10px;
+        font-size: 10px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .subject-popular-card {
+        margin: 0 0 20px 0;
+    }
+
+    /* SECTION HOME SUBJECT TEXT1 */
+
+    #section-home-subject-text1 {
+        font-size: 30px;
+    }
+
+    /* SECTION HOME SUBJECT BUTTON OUR SUBJECTS */
+    #section-home-subject-btn a {
+        padding: 5px 15px 5px 15px;
+        float: right;
+        font-size: 15px;
+    }
+    #section-home-chooseus {
+        height: auto;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    /* HOME CHOOSE US SECTION TEXT 1*/
+    #section-home-chooseus-text1 {
+        font-size: 30px;
+
+    }
+
+    /* HOME CHOOSE US TEXT 2 */
+    #section-home-chooseus-text2 {
+        
+        font-size: 15px;
+        
+    }
+    /* SECTION HOME CHOOSE US END HERE */
+    #section-home-works {
+        height: auto;
+    }
+    #section-home-works-text1 {
+        font-size: 30px;
+   
+    }
+    
+    #section-home-work-text2 {
+        background-repeat: no-repeat;
+        padding: 4px 0 0 80px;
+        font-size: 10px;
+    
+    }
+    #section-home-work-image
+    {
+        padding: 25px 0 25px 0;
+    }
+    #section-home-courses {
+        height: auto;
+    }
+    #section-home-features {
+        height: auto;
+    }
+    #section-about-five #table-seven #table-seven-firtstcol-second_text
+{
+    font-size: 15px;
+}
+#section-about-five #table-seven #table-seven-secondcol-second_text
+{
+    font-size: 15px;
+}
+#section-about-five #table-seven #table-seven-secondcol-third_text
+{
+    font-size: 15px;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-third-text
+{
+    font-size: 15px;
+}
+    
+
+}

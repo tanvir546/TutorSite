@@ -1,0 +1,166 @@
+ 
+@import url('../css/style.css');
+@import url('../css/max-width1200.css');
+@import url('../css/max-width600.css');
+
+#section-e-learning-home{
+  background-image: url('../img/about-cover.jpg');
+  background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  height: 450px;
+  width: 100%;
+  }
+  #section-learning-text1
+  {
+    padding: 120px 0 0 0;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(29, 38, 45);
+    font-weight: 400px;
+    font-size: 70px;
+    font-style: normal;
+  }
+  .e-learning-image img
+  {
+    height: auto;
+    width: 100%;
+
+  }
+  #section-e-learning-english
+    {
+        height: auto;
+    }
+    #section-elearning-eng-text2 {
+      background-repeat: no-repeat;
+      font-family: 'DM Serif Display', serif;
+      padding: 4px 0 0 80px;
+    
+  
+  }
+  #section-elearning-eng-text2 h5{
+    color: #7d736d;
+    
+
+}
+#section-e-learning-details h1
+{
+  font-family: 'DM Serif', sans-serif;
+font-weight: 700;
+padding: 0 0 50px 0;
+}
+#section-e-learning-details
+{
+  padding: 100px 0 0 0;
+  height: auto;
+}
+#elearning-details-text2 h2
+{
+  font-family: 'DM Serif', sans-serif;
+  font-size: 20px;
+  margin: 0 0 50px 0;
+
+
+}
+#elearning-details-text2 p
+{
+  font-family: 'DM Serif', sans-serif;
+  color: #7d736d;
+  font-size: 15px;
+
+
+}
+.btn-edetails
+{
+  background-color: rgb(249, 124, 95);
+  border-radius: 30px 30px 30px 30px;
+  font: 15px sans-serif;
+  color: white;
+}
+.btn-edetails:hover {
+  background-color: #ff6441;
+  color: white;
+
+
+}
+#lasterafont h3
+{
+  font-size: larger;
+  font-weight: bold;
+  
+}
+#lasterafont h5
+{
+  font-size: medium;
+  font-weight: normal;
+  padding: 10px 0 20px 0;
+  
+}
+#lastsectionofera
+{
+  height: auto;
+  background: rgb(253, 250, 247);
+}
+  @media screen and (max-width: 600px) {
+      #section-e-learning-home
+      {
+          height: 150px;
+          width: 100%;
+          background-position: center top;
+          background-repeat: no-repeat;
+          position: relative;
+      }
+      #section-learning-text1
+  {
+    padding: 0 0 0 0;
+    font-size: 30px;
+  }
+  #section-e-learning-english 
+    {
+        height: auto;
+    }
+    #section-elearning-eng-text2 h5 {
+      font-size: 15px;
+      padding: 0 0 20px 0;
+
+  
+  }#section-e-learning-details h1
+  {
+    font-size: x-large;
+  font-weight: 700;
+  }
+
+}
+  @media (min-width: 601px) and (max-width: 1200px) {
+    #section-elearning-eng-text2 h5 {
+      font-size: 20px;
+      padding: 0 0 20px 0;
+
+  
+  }
+  #section-learning-text1
+  {
+    padding: 0 0 0 0;
+    font-size: 50px;
+  }
+    
+    }
+    #section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i:hover
+{
+    color: #e9745a;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i
+{
+    color: black;
+}
+@media only screen and (max-width: 767px)
+  {
+    #section-about-five #table-seven #table-seven-thirdcol
+        {
+            text-align: left;
+        }
+    #section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-second-text h2
+        {
+            /* text-align: right; */
+            font-size: 20px;
+        }
+  }

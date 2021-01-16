@@ -1,0 +1,92 @@
+@media (min-width: 601px) and (max-width: 1200px) {
+
+    /* NAV BAR PADDING BETWEEN EACH NAV-ITEAM */
+    nav .navbar-collapse ul li {
+        text-align: right;
+    }
+
+    /* NAV COLOR */
+    nav {
+        height: auto;
+        background-color: white;
+    }
+
+    /* HOME SUBJECT HEIGHT */
+    #section-home-subject {
+        height: auto;
+    }
+
+    /* HOME HERO SECTION  */
+    #section-home-hero {
+        background-position: center;
+        background-position-y: 150mm;
+        background-size: 70%;
+        height: 80vh;
+    }
+
+    /* HOME SECTION TEXT 1 */
+    #section-home-text1 {
+        padding: 30px 0 10px 0;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    /* HOME SECTION TEXT 2 */
+
+    #section-home-text2 {
+        margin: 0 0 30px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* CENTER HERO TEXT 2 */
+    .midsccenter {
+        justify-content: center;
+    }
+
+    /* HOME SECTION BUTTON */
+    #section-home-btn button {
+        padding: 15px 20px 15px 20px;
+        font-size: 15px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* CARD MARGING */
+    .subject-popular-card {
+        margin: 0 0 20px 0;
+
+    }
+
+    /* SECTION HOME SUBJECT TEXT1 */
+    #section-home-subject-text1 {
+        font-size: 40px;
+    }
+
+    #section-home-chooseus {
+        height: auto;
+    }
+
+    /* HOME SECTION END HERE */
+
+    /* SECTION HOME CHOOSE US END HERE */
+    #section-home-works {
+        height: auto;
+    }
+
+    #section-home-courses {
+        height: auto;
+    }
+
+    #section-home-features {
+        height: auto;
+    }
+    #section-about-four #table-six #table-six-secondcol
+    {
+      margin-top: 50px;
+      height: 100%;
+      width: 100%;
+    }
+
+
+}

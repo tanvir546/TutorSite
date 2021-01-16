@@ -1,0 +1,337 @@
+/* ABOUT STYLE START HERE */
+@import url('../css/style.css');
+@import url('../css/max-width1200.css');
+@import url('../css/max-width600.css');
+@import url('../css/E-learning.css');
+
+
+#section-contact
+{
+    background-image: url('../img/about-cover.jpg');
+    background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+#contact_title h1
+{
+    font-family: 'Abril Fatface', ;
+    font-size: 50px;
+    padding-top: 330px;
+    padding-left: 130px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    #section-contact
+    {
+        /* padding: 80px 0!important; */
+        height: 150px;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    #contact_title h1
+    {
+    font-size: 30px;
+    padding-top: 85px;
+    padding-left: 20px;
+    }
+}
+
+/* CONTACT FORM SECTION */
+#section-contact-first
+{
+    height: 650px;
+}
+.button_one {
+    background-color: #f97c5f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  #inputMessage
+{
+  padding: 50px 20px;
+  background-color: #FFF8F3;
+  border: none;
+  /* color:#929292; */
+  /* color: #f97c5f; */
+}
+#inputName
+{
+    background-color: #FFF8F3; 
+    /* padding: 20px 0px; */
+    border: none;
+}
+#inputNumber
+{
+    background-color: #FFF8F3; 
+    /* padding: 10px 0 10px 0; */
+    border: none;
+}
+#inputEmail
+{
+    background-color: #FFF8F3; 
+    border: none;
+}
+#contact-table-first-secondcol
+{
+    background-color: #FFF8F3;
+     
+}
+#section-contact-first #contact-table-first #contact-table-first-secondcol
+{
+    background-color: #FFF8F3;
+}
+#section-contact-first #contact-table-first
+{
+    margin-top: 150px;
+}
+#section-contact-first #contact-table-first #contact-table-first-firstcol-contactform
+{
+    margin-top: 50px;
+}
+#section-contact-first #contact-table-first #contact-table-first-secondcol #contact-table-first-secondcol-group
+{
+    /* text-align: right; */
+    margin-left: 50px;
+    margin-top: 100px;
+}
+/* color:#929292; */
+#section-contact-first #contact-table-first #contact-table-first-secondcol #contact-table-first-secondcol-group h5
+{
+    color:#929292;
+    padding-top: 20px;
+}
+#section-contact-first #contact-table-first #contact-table-first-secondcol #contact-table-first-secondcol-group h4
+{
+    /* color:#929292; */
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767px)
+{
+    #section-contact-first #contact-table-first #contact-table-first-firstcol #contact-table-first-firstcol-title h1
+    {
+        /* margin-bottom: 900px; */
+        font-size: 30px;
+    }
+    #section-contact-first #contact-table-first #contact-table-first-secondcol
+    {
+        margin-top: 50px;
+        /* font-size: 30px; */
+    }
+    #section-contact-first #contact-table-first #contact-table-first-secondcol #contact-table-first-secondcol-group
+    {
+        margin-right: 50px;
+        /* font-size: 30px; */
+    }
+    #section-contact-first #contact-table-first #contact-table-first-secondcol #contact-table-first-secondcol-group h4
+{
+    /* text-align: right; */
+    /* margin-left: 50px;
+    margin-top: 100px; */
+    font-size: 20px;
+
+}
+}
+/* CONTACT THIRD SECTION */
+#section-contact-third 
+{
+    background-image: url('./../img/about-pic3.jpg');
+    height: 100%;
+    width: 100%;
+    height: 700px;
+}
+#section-contact-third #section-contact-third-text h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    /* line-height: 36px; */
+}
+#section-contact-third #section-contact-third-text
+{
+    padding-top: 200px;
+}
+/* input[type=text], select  */
+#section-contact-third #section-contact-third-text_field input[type=text], select
+{
+    /* text-align: center; */
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+}
+#section-contact-third #section-contact-third-text_field
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.button_two {
+    background-color: #f97c5f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  #section-contact-third #section-contact-third-text_field #section-contact-third-button_second
+  {
+      margin-top: 20px;
+  }
+  @media only screen and (max-width: 767px)
+{
+    #section-contact-third 
+    {
+        /* background-image: url('./../img/about-pic3.jpg');
+        height: 100%;
+        width: 100%; */
+        height: 900px;
+        /* margin-top: 100px; */
+        /* padding-top: 100px; */
+    }
+    #section-contact-third #section-contact-third-text
+    {
+        padding-top: 450px;
+    }
+    #section-contact-third #section-contact-third-text h1
+    {
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        /* line-height: 36px; */
+    }
+    #section-contact-third #section-contact-third-text_field input[type=text], select
+    {
+        /* text-align: center; */
+        width: 85%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        /* border: 1px solid #ccc; */
+        /* border-radius: 4px; */
+        box-sizing: border-box;
+    }
+
+}
+
+
+  /* ABOUT FIVE STYLE START HERE */
+
+#section-about-five
+{
+    margin-top: 150px;
+    height: 350px;
+    
+}
+
+#section-about-five #table-seven #table-seven-firtstcol-second_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-secondcol-second_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-secondcol-third_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-third-text
+{
+    color:#929292;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: right;
+}
+#section-about-five #table-seven #table-seven-thirdcol 
+{
+    text-align: right;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i:hover
+{
+    color: #e9745a;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i
+{
+    color: black;
+}
+
+@media only screen and (max-width: 767px)
+  {
+    #section-about-five #table-seven #table-seven-thirdcol
+    {
+        text-align: left;
+    }
+    #section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-second-text h2
+    {
+        /* text-align: right; */
+        font-size: 20px;
+    }
+  }
+/* FOOTER SECTION START HERE */
+#footer
+{
+
+    height: 100px;
+}
+#footer #footer-table
+{
+    margin-top: 30px;
+}
+#footer #footer-table #footer-table-secondcol
+{
+    text-align: right;
+    /* background-color:#929292 ; */
+    background: transparent;
+}
+#footer #footer-table #footer-table-secondcol i
+{
+    /* text-align: right; */
+    /* background-color:#929292 ; */
+    background: transparent;
+    color:#929292;
+}
+#footer #footer-table #footer-table-firtstcol
+{
+    font-size: 20px;
+    color:#929292;
+}
+
+@media only screen and (max-width: 767px)
+  {
+    #footer
+    {
+        margin-top: 300px;
+    }
+    #footer #footer-table #footer-table-firtstcol
+{
+    font-size: 15px;
+    color:#929292;
+}
+  }
+/* FOOTER SECTION END HERE */

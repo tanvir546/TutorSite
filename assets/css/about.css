@@ -1,0 +1,546 @@
+/* ABOUT STYLE START HERE */
+@import url('../css/style.css');
+@import url('../css/max-width1200.css');
+@import url('../css/max-width600.css');
+@import url('../css/E-learning.css');
+
+
+
+#section-about
+{
+    background-image: url('../img/about-cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+#about_title h1
+{
+    font-size: 50px;
+    padding-top: 250px;
+    padding-left: 130px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    #section-about
+    {
+        /* padding: 80px 0!important; */
+        height: 150px;
+        width: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    #about_title h1
+    {
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 20px;
+    }
+}
+/* ABOUT STYLE END HERE */
+
+
+/* ABOUT FIRST STYLE START HERE */
+
+#section-about-first #about-first_title h1
+{
+    font-size: 50px;
+    padding-top: 80px;
+}
+#section-about-first #table-first-firstcol
+{
+    margin-top: 40px;
+    color: #929292;
+}
+#section-about-first #table-first-secondcol
+{
+    margin-top: 40px;
+    color: #7d736d;
+}
+
+#section-about-first #table-first-secondcol #ptag
+{
+    margin-top: 40px;
+    color: #7d736d;
+}
+@media only screen and (max-width: 767px)
+{
+    #section-about-first #about-first_title h1
+    {
+        font-size: 30px;
+    }
+}
+/* ABOUT FIRST STYLE END HERE */
+
+/* ABOUT SECOND STYLE START HERE */
+#section-about-second #about-second_title h1
+{
+    font-size: 50px;
+    /* padding-left: 30px; */
+}
+#section-about-second #table-second
+{
+    margin-top: 60px;
+}
+#section-about-second #table-second-secondcol #about-second_title-maintext
+{
+    margin-top: 30px;
+    color: #7d736d;
+    font-size: 20px;
+}
+.button_one {
+    background-color: #f97c5f; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+/* ABOUT SECOND STYLE START HERE */
+
+
+
+
+/* ABOUT THIRD STYLE START HERE */
+
+#section-about-third #third-about_title h1
+{
+    margin-top: 150px;
+}
+#section-about-third #table-third #table-four-firstcol p
+{
+    letter-spacing: 5px;
+    color: #f97c5f;
+}
+.button_two {
+    background-color: #fff8f3;
+    border: none;
+    color: #f97c5f;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin-left: 150px; */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .button_three {
+    background-color: #f97c5f;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+
+  #section-about-third #table-third
+  {
+      margin-top: 80px;
+  }
+  #section-about-third #table-third-secondcol
+  {
+      text-align: right;
+  }
+  /* #section-about-third #table-third #table-third-secondcol #table-third-secondcol-firstbtn #button_second
+  {
+      padding-left: 80px;
+  } */
+  hr
+  {
+      margin-top: 50px;
+      /* width: 210%; */
+      /* padding-left: 900px; */
+  }
+
+  #section-about-third #table-four #table-four-firstcol p
+{
+    letter-spacing: 5px;
+    color: #f97c5f;
+}
+#section-about-third #table-five #table-five-firstcol p
+{
+    letter-spacing: 5px;
+    color: #f97c5f;
+}
+.button_four {
+    background-color: #fff8f3;
+    border: none;
+    color: #f97c5f;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin-left: 150px; */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .button_five {
+    background-color: #f97c5f;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  /* .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  } */
+  .button_six {
+    background-color: #fff8f3;
+    border: none;
+    color: #f97c5f;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin-left: 150px; */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .button_seven {
+    background-color: #f97c5f;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+  }
+  #section-about-third #table-four-secondcol
+  {
+      text-align: center;
+  }
+  #section-about-third #table-five-secondcol
+  {
+    text-align: center;
+  }
+  #section-about-third #table-four
+  {
+    margin-top: 60px;
+    }
+#section-about-third #table-five
+  {
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 767px)
+{
+    #section-about-third #third-about_title h1
+    {
+        font-size: 30px;
+    }
+    #section-about-third #table-third #table-four-firstcol p
+    {
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+    #section-about-third #table-four #table-four-firstcol p
+    {
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+    #section-about-third #table-five #table-five-firstcol p
+    {
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+    #section-about-third #table-third #table-four-firstcol h1
+    {
+        font-size: 20px;
+    }
+    #section-about-third #table-four #table-four-firstcol h1
+    {
+        font-size: 20px;
+    }
+    #section-about-third #table-five #table-five-firstcol h1
+    {
+        font-size: 20px;
+    }
+    hr
+    {
+        width: 320px;
+        margin-top: 50px;
+    }
+    .button_two {
+        background-color: #fff8f3;
+        border: none;
+        color: #f97c5f;
+        padding: 0px 55px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /* margin-left: 150px; */
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px 30px 30px 30px;
+      }
+      .button_three {
+        background-color: #f97c5f;
+        border: none;
+        color: white;
+        padding: 0px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px 30px 30px 30px;
+      }
+      .button_four {
+        background-color: #fff8f3;
+        border: none;
+        color: #f97c5f;
+        padding: 0px 55px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /* margin-left: 150px; */
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px 30px 30px 30px;
+      }
+      .button_five {
+        background-color: #f97c5f;
+        border: none;
+        color: white;
+        padding: 0px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px 30px 30px 30px;
+      }
+      .button_six {
+        background-color: #fff8f3;
+        border: none;
+        color: #f97c5f;
+        padding: 0px 55px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        /* margin-left: 150px; */
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px 30px 30px 30px;
+      }
+      .button_seven {
+        background-color: #f97c5f;
+        border: none;
+        color: white;
+        padding: 0px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 30px 30px 30px 30px;
+      }
+}
+/* ABOUT THIRD STYLE END HERE */
+
+/* ABOUT FOUR STYLE START HERE */
+
+#section-about-four
+{
+    margin-top: 150px;
+    background-image: url('./../img/about-pic3.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 700px;
+    /* width: 100%; */
+}
+.button_eight {
+    background-color: #f97c5f;
+    border: none;
+    color: white;
+    padding: 20px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 30px;
+  }
+
+  #section-about-four #table-six
+  {
+      padding-top: 150px;
+  }
+  #section-about-four #table-six #table-six-firstcol #six-first-title
+  {
+      color: #fff;
+  }
+  #section-about-four #table-six #table-six-firstcol #six-second-title
+  {
+      color: #fff;
+      padding-top: 20px;
+  }
+  #section-about-four #table-six #table-six-firstcol #six-third-option
+  {
+      color: #fff;
+      padding-top: 20px;
+  }
+  @media only screen and (max-width: 767px)
+  {
+    #section-about-four #table-six #table-six-firstcol #six-first-title h1
+    {
+        font-size: 30px;
+    }
+
+    #section-about-four #table-six #table-six-secondcol
+    {
+      margin-top: 50px;
+    }
+     #section-about-four
+    {
+    /* margin-top: 150px;
+    background-image: url('./../img/about-pic3.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; */
+    height: 900px;
+    /* width: 100%; */
+    }
+  }
+/* ABOUT FOUR STYLE END HERE */
+
+/* FOOTER SECTION START HERE */
+
+#section-about-five
+{
+    height: 350px;
+    
+}
+
+#section-about-five #table-seven #table-seven-firtstcol-second_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-secondcol-second_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-secondcol-third_text
+{
+    color:#929292;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-third-text
+{
+    color:#929292;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: right;
+}
+#section-about-five #table-seven #table-seven-thirdcol 
+{
+    text-align: right;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i:hover
+{
+    color: #e9745a;
+}
+#section-about-five #table-seven #table-seven-thirdcol #table-seven-thirdcol-first_text i
+{
+    color: black;
+}
+@media only screen and (max-width: 767px)
+  {
+    #section-about-five #table-seven #table-seven-thirdcol
+{
+    text-align: left;
+}
+#section-about-four #table-six #table-six-secondcol
+    {
+      margin-top: 50px;
+      
+    }
+  }
+
+/* FOOTER SECTION START HERE */
+#footer
+{
+
+    height: 100px;
+}
+#footer #footer-table
+{
+    margin-top: 30px;
+}
+#footer #footer-table #footer-table-secondcol
+{
+    text-align: right;
+    /* background-color:#929292 ; */
+    background: transparent;
+}
+#footer #footer-table #footer-table-secondcol i
+{
+    /* text-align: right; */
+    /* background-color:#929292 ; */
+    background: transparent;
+    color:#929292;
+}
+#footer #footer-table #footer-table-firtstcol
+{
+    font-size: 20px;
+    color:#929292;
+}
+
+@media only screen and (max-width: 767px)
+  {
+    #footer
+    {
+        margin-top: 300px;
+    }
+    #footer #footer-table #footer-table-firtstcol
+{
+    font-size: 15px;
+    color:#929292;
+}
+  }
+/* FOOTER SECTION END HERE */
+
